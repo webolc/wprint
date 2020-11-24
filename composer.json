@@ -1,0 +1,17 @@
+{
+    "name": "yangyongxu/wprint",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yangyongxu",
+            "email": "516705893@qq.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+    	"psr-4": {
+      		"yangyongxu\\wprint\\": "src/"
+    	}
+  	}
+}
