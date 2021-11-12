@@ -1,8 +1,7 @@
 <?php
-namespace yangyongxu\wprint\feieyun;
+namespace webolc\wprint\feieyun;
 
-use yangyongxu\wprint\Wprint;
-use yangyongxu\wprint\feieyun\HttpClient;
+use webolc\wprint\feieyun\HttpClient;
 
 class Feieyun implements Wprint{
 	

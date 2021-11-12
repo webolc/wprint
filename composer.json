@@ -1,9 +1,9 @@
 {
-    "name": "yangyongxu/wprint",
+    "name": "webolc/wprint",
     "type": "library",
     "authors": [
         {
-            "name": "yangyongxu",
+            "name": "webolc",
             "email": "516705893@qq.com"
         }
     ],
@@ -11,7 +11,7 @@
     "minimum-stability": "dev",
     "autoload": {
     	"psr-4": {
-      		"yangyongxu\\wprint\\": "src/"
+      		"webolc\\wprint\\": "src/"
     	}
   	}
 }

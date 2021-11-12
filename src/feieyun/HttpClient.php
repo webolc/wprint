@@ -1,5 +1,5 @@
 <?php
-namespace yangyongxu\wprint\feieyun;
+namespace webolc\wprint\feieyun;
 
 class HttpClient {
     // Request vars

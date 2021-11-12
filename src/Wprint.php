@@ -1,5 +1,5 @@
 <?php
-namespace yangyongxu\wprint;
+namespace webolc\wprint;
 
 /**
  * 小票打印接口
