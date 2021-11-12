@@ -130,11 +130,26 @@ class Feieyun implements Wprint{
 		if ($res){
 			$res = json_decode($this->client->getContent(),true);
 			if (isset($res['ret']) && $res['ret']==0){
-				return success('',$res['data']);
+				return [
+				    'code'    => 1,
+				    'status'  => 'success',
+				    'msg' => 'success', 
+				    'data'    => $res['data']
+				];
 			}
-			return error($res['msg'],$res['data']);
+			return [
+			    'code'    => 0,
+			    'status'  => 'error',
+			    'msg'     => $res['msg'],
+			    'data'    => $res['data']
+			];
 		}
-		return error();
+		return [
+		    'code'    => 0,
+		    'status'  => 'error',
+		    'msg'     => '',
+		    'data'    => []
+		];
 	}
 	/**
 	 * 模板
