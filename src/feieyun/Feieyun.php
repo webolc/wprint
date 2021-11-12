@@ -2,6 +2,7 @@
 namespace webolc\wprint\feieyun;
 
 use webolc\wprint\feieyun\HttpClient;
+use webolc\wprint\Wprint;
 
 class Feieyun implements Wprint{
 	
@@ -9,8 +10,8 @@ class Feieyun implements Wprint{
 	protected $client;
 	public function __construct($config=[]){
 		$conf = [
-			'user' => '516705893@qq.com',
-			'key' => 'tcnfJmbxtx8Dyv4h',
+			'user' => '',
+			'key' => '',
 			'host' => 'api.feieyun.cn',
 			'port' => 80,
 			'path' => '/Api/Open/',
